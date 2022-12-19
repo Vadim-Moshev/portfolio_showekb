@@ -1,0 +1,71 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-main-slider-busisness {
+    width: 102px;
+    height: 102px;
+    background-position: -1px -1px;
+}
+
+.sprite-main-slider-corporatives {
+    width: 102px;
+    height: 102px;
+    background-position: -105px -1px;
+}
+
+.sprite-main-slider-kids {
+    width: 102px;
+    height: 102px;
+    background-position: -1px -105px;
+}
+
+.sprite-main-slider-weddings {
+    width: 102px;
+    height: 102px;
+    background-position: -105px -105px;
+}
+
+.sprite-photos-count-ico {
+    width: 26px;
+    height: 22px;
+    background-position: -209px -1px;
+}
+
+.sprite-pic-preview-loupe {
+    width: 32px;
+    height: 41px;
+    background-position: -209px -25px;
+}
+
+.sprite-ribbon_edge {
+    width: 28px;
+    height: 44px;
+    background-position: -209px -68px;
+}
+
+.sprite-search_ico {
+    width: 18px;
+    height: 18px;
+    background-position: -209px -114px;
+}
+
+.sprite-star-marker {
+    width: 15px;
+    height: 15px;
+    background-position: -209px -134px;
+}
+
+.sprite-video-play-button {
+    width: 85px;
+    height: 85px;
+    background-position: -243px -1px;
+}
+
+.sprite-wedding-list-marker {
+    width: 55px;
+    height: 55px;
+    background-position: -239px -88px;
+}

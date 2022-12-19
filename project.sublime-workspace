@@ -580,6 +580,7 @@
 	],
 	"file_history":
 	[
+		"/D/portfolio/portfolio_showekb/_cmd.bat",
 		"/D/portfolio/portfolio_showekb/.gitignore",
 		"/D/portfolio/portfolio_showekb/package.json",
 		"/D/tockkaru_tz/src/styles/vars.scss",
@@ -706,8 +707,7 @@
 		"/D/apptrix-tz/src/components/issuesFilter/index.jsx",
 		"/D/apptrix-tz/src/pages/userCard/userCard.module.css",
 		"/D/apptrix-tz/src/pages/issues/issues.module.css",
-		"/D/apptrix-tz/src/store/index.js",
-		"/D/apptrix-tz/src/components/dataTable/index.jsx"
+		"/D/apptrix-tz/src/store/index.js"
 	],
 	"find":
 	{
