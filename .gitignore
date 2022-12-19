@@ -20,6 +20,7 @@
 .sublime-project
 .sublime-workspace
 .bat
+.lnk
 
 npm-debug.log*
 yarn-debug.log*
