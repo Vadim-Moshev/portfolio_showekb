@@ -519,6 +519,195 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 267,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOgAAAAAAAAA6QAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADoAAAAAAAAAOgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"trim_trailing_white_space",
+					null,
+					"AQAAAOgAAAAAAAAA6AAAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADpAAAAAAAAAOkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"delete_trailing_spaces",
+					null,
+					"AQAAAPAAAAAAAAAA8AAAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADoAAAAAAAAAOgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"js_prettier",
+					{
+						"auto_format_prettier_config_path": null,
+						"save_file": true
+					},
+					"AgAAAAAAAAAAAAAACgEAAAAAAAAAAQAAPCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9InJ1Ij4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBodHRwLWVxdWl2PSJYLVVBLUNvbXBhdGlibGUiIGNvbnRlbnQ9IklFPWVkZ2UiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPHRpdGxlPlRpdGxlPC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KCjwvYm9keT4KPC9odG1sPgoBAAAAAAAACwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADoAAAAAAAAAOgAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 356,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n-"
+					},
+					"AgAAAC4BAAAAAAAALwEAAAAAAAAAAAAALwEAAAAAAAAwAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAuAQAAAAAAAC4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC8BAAAAAAAALwEAAAAAAAABAAAALQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAwAQAAAAAAADABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": ".lnk"
+					},
+					"BAAAAC8BAAAAAAAAMAEAAAAAAAAAAAAAMAEAAAAAAAAxAQAAAAAAAAAAAAAxAQAAAAAAADIBAAAAAAAAAAAAADIBAAAAAAAAMwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAvAQAAAAAAAC8BAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"contents": "import \"dd\";",
+			"file": "src/styles/main.scss",
+			"file_size": 0,
+			"file_write_time": 133128353271541056,
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "impo"
+					},
+					"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "rt"
+					},
+					"AgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAYAAAAAAAAABgAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAP///////+9/"
+				],
+				[
+					10,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAAcAAAAAAAAACQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAAkAAAAAAAAACgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAP///////+9/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "dd"
+					},
+					"AgAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/D/tockkaru_tz/src/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 7558,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -576,10 +765,17 @@
 	},
 	"expanded_folders":
 	[
-		"/D/portfolio/portfolio_showekb"
+		"/D/portfolio/portfolio_showekb",
+		"/D/portfolio/portfolio_showekb/src"
 	],
 	"file_history":
 	[
+		"/D/Работа it invest/showEkb/templates/assets/styles/fonts.css",
+		"/D/portfolio/portfolio_showekb/src/styles/parts/fonts.css",
+		"/D/Работа it invest/showEkb/templates/index.html",
+		"/D/Мои документы и так далее/Загрузки/beermoney/beermoney.css",
+		"/D/portfolio/portfolio_showekb/src/images/reserve/sprite.txt",
+		"/D/Работа it invest/showEkb/templates/assets/styles/style.css",
 		"/D/portfolio/portfolio_showekb/_cmd.bat",
 		"/D/portfolio/portfolio_showekb/.gitignore",
 		"/D/portfolio/portfolio_showekb/package.json",
@@ -701,13 +897,7 @@
 		"/D/apptrix-tz/src/components/authErrorMessage/authErrorMessage.module.css",
 		"/D/apptrix-tz/src/utils/index.js",
 		"/D/apptrix-tz/src/components/issuesFilter/issuesFilter.module.css",
-		"/D/apptrix-tz/src/components/usersTable/index.jsx",
-		"/D/apptrix-tz/src/utils/utils.js",
-		"/D/apptrix-tz/src/pages/timesheet/timesheet.module.css",
-		"/D/apptrix-tz/src/components/issuesFilter/index.jsx",
-		"/D/apptrix-tz/src/pages/userCard/userCard.module.css",
-		"/D/apptrix-tz/src/pages/issues/issues.module.css",
-		"/D/apptrix-tz/src/store/index.js"
+		"/D/apptrix-tz/src/components/usersTable/index.jsx"
 	],
 	"find":
 	{
@@ -732,6 +922,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".",
 			"linea",
 			"font-style: normal",
 			"slider__slide-text-part",
@@ -858,8 +1049,7 @@
 			"}\n",
 			"\"",
 			"const",
-			"runInAction",
-			"routing"
+			"runInAction"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -890,6 +1080,127 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/tockkaru_tz/src/styles/main.scss",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],

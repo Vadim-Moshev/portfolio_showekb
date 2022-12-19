@@ -1,0 +1,29 @@
+@font-face {
+    font-family: cuprum_regular; 
+    src: url(fonts/cuprum/cuprum_regular.eot); 
+    src: local(cuprum_regular), url(fonts/cuprum/cuprum_regular.ttf);
+} 
+
+@font-face {
+    font-family: calibri_light; 
+    src: url(fonts/calibri/calibri_light.eot); 
+    src: local(calibri_light), url(fonts/calibri/calibri_light.ttf);
+}
+
+@font-face {
+    font-family: calibri_light_italic; 
+    src: url(fonts/calibri/calibri_light_italic.eot); 
+    src: local(calibri_light_italic), url(fonts/calibri/calibri_light_italic.ttf);
+}
+
+@font-face {
+    font-family: calibri_regular; 
+    src: url(fonts/calibri/calibri_regular.eot); 
+    src: local(calibri_regular), url(fonts/calibri/calibri_regular.ttf);
+}
+
+@font-face {
+    font-family: nautilus_pompilius; 
+    src: url(fonts/nautilus_pompilius/nautilus_pompilius.eot); 
+    src: local(nautilus_pompilius), url(fonts/nautilus_pompilius/nautilus_pompilius.ttf);
+}
