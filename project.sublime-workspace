@@ -1,0 +1,978 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"body-background"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sli",
+				"slideToShow"
+			],
+			[
+				"get",
+				"getById"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ma",
+				"main-width"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"brc",
+				"border-right-color"
+			],
+			[
+				"n",
+				"prettierignore\tPrettier ignore next node (JsPrettier)"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"ta",
+				"taskStatus"
+			],
+			[
+				"tar",
+				"targetTask"
+			],
+			[
+				"isE",
+				"isEdtorModeEnabled"
+			],
+			[
+				"fe",
+				"fetchTaskById"
+			],
+			[
+				"fl",
+				"flag"
+			],
+			[
+				"taskS",
+				"tasksStorage"
+			],
+			[
+				"STR",
+				"TASK_STRUCTURE"
+			],
+			[
+				"dir",
+				"flex-direction"
+			],
+			[
+				"indi",
+				"indigo"
+			],
+			[
+				"Ta",
+				"TaskViewer"
+			],
+			[
+				"flo",
+				"flex-direction"
+			],
+			[
+				"rea",
+				"react-router-dom"
+			],
+			[
+				"Re",
+				"RecordsStore"
+			],
+			[
+				"mobx",
+				"mobx-react-router"
+			],
+			[
+				"dire",
+				"flex-direction"
+			],
+			[
+				"fle",
+				"flex-grow"
+			],
+			[
+				"di",
+				"flex-direction"
+			],
+			[
+				"pos",
+				"background-position"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"dec",
+				"text-decoration-line"
+			],
+			[
+				"Pr",
+				"PrivateRoute"
+			],
+			[
+				"nav",
+				"navigate"
+			],
+			[
+				"react",
+				"react-redux"
+			],
+			[
+				"react-",
+				"react-router-dom"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"use",
+				"useSelector"
+			],
+			[
+				"time",
+				"Timesheet"
+			],
+			[
+				"ti",
+				"timeSheetIsLoading"
+			],
+			[
+				"iss",
+				"issuesAreLoading"
+			],
+			[
+				"SET",
+				"SET_ISSUES_LOADING"
+			],
+			[
+				"SE",
+				"SET_ISSUES_LOADING"
+			],
+			[
+				"La",
+				"LargeLoader"
+			],
+			[
+				"USERS",
+				"usersAreLoading"
+			],
+			[
+				"sub",
+				"submitButtonContent"
+			],
+			[
+				"auth",
+				"authInProgress"
+			],
+			[
+				"setAS",
+				"setAuthProgressStatusAction"
+			],
+			[
+				"ST",
+				"SET_AUTH_PROGRESS_STATUS"
+			],
+			[
+				"progr",
+				"authInProgress"
+			],
+			[
+				"STA",
+				"SET_AUTH_PROGRESS_STATUS"
+			],
+			[
+				"at",
+				"authErrorMessage"
+			],
+			[
+				"err",
+				"errMsg"
+			],
+			[
+				"Aut",
+				"AuthErrorMessage"
+			],
+			[
+				"au",
+				"authErrorMessage"
+			],
+			[
+				"Auth",
+				"authErrorMessage"
+			],
+			[
+				"set",
+				"setAuthErrorMessageAction"
+			],
+			[
+				"LOG",
+				"LOGOUT"
+			],
+			[
+				"HM",
+				"minutesToHM"
+			],
+			[
+				"h",
+				"hours"
+			],
+			[
+				"mi",
+				"minutesTotal"
+			],
+			[
+				"fet",
+				"fetchTimesheet"
+			],
+			[
+				"is",
+				"issueId"
+			],
+			[
+				"f",
+				"fetchedTimesheet"
+			],
+			[
+				"FE",
+				"FETCH_TIMESHEET"
+			],
+			[
+				"FET",
+				"FETCH_TIMESHEET"
+			],
+			[
+				"fil",
+				"filterString"
+			],
+			[
+				"dis",
+				"dispatch"
+			],
+			[
+				"cha",
+				"changeFilterStringAction"
+			],
+			[
+				"CHA",
+				"CHANGE_FILTER_STRING"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"disp",
+				"displayedIssues"
+			],
+			[
+				"actio",
+				"filterIssuesAction"
+			],
+			[
+				"fi",
+				"filterString"
+			],
+			[
+				"FIL",
+				"FILTER_ISSUES"
+			],
+			[
+				"issue",
+				"issuesReducer"
+			],
+			[
+				"i",
+				"issue"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"ro",
+				"rowIndex"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"cell",
+				"tableRowCells"
+			],
+			[
+				"cl",
+				"clearFetchedUserByIdAction"
+			],
+			[
+				"C",
+				"CLEAR_FETCHED_USER_BY_ID"
+			],
+			[
+				"CLE",
+				"CLEAR_FETCHED_USERS"
+			],
+			[
+				"fetchedUser",
+				"fetchedUserById"
+			],
+			[
+				"CLEAR_FETCHED_USER",
+				"CLEAR_FETCHED_USER_BY_ID"
+			],
+			[
+				"byi",
+				"fetchedUserById"
+			],
+			[
+				"by",
+				"fetchUserByIdAction"
+			],
+			[
+				"feth",
+				"fetchUserByIdAPI"
+			],
+			[
+				"fetch",
+				"fetchUsersById"
+			],
+			[
+				"fetc",
+				"fetchedUserById"
+			],
+			[
+				"ort",
+				"import"
+			],
+			[
+				"borde",
+				"border-collapse"
+			],
+			[
+				"act",
+				"authorizeAction"
+			],
+			[
+				"en",
+				"enterPassword"
+			],
+			[
+				"CH",
+				"CHANGE_USERNAME"
+			],
+			[
+				"A",
+				"AUTHORIZE"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"Ro",
+				"Routes"
+			],
+			[
+				"Browse",
+				"BrowserRouter"
+			],
+			[
+				"Rou",
+				"Router"
+			],
+			[
+				"car",
+				"cardTitle"
+			],
+			[
+				"AD",
+				"ADD_MANY_CUSTOMERS"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"cu",
+				"customer"
+			],
+			[
+				"de",
+				"defaultState"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"bu",
+				"burgerMenu"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"al",
+				"alt"
+			],
+			[
+				"wa",
+				"await"
+			],
+			[
+				"sto",
+				"storyRecord"
+			],
+			[
+				"nu",
+				"downloadStoryByURL"
+			],
+			[
+				"down",
+				"downloadStoryByURL"
+			],
+			[
+				"no",
+				"nodeValue"
+			],
+			[
+				"te",
+				"textNode"
+			],
+			[
+				"stor",
+				"storyNumber"
+			],
+			[
+				"dow",
+				"downloadStoryByURL"
+			],
+			[
+				"UR",
+				"URLs"
+			],
+			[
+				"file",
+				"fileContent"
+			],
+			[
+				"s",
+				"storyName"
+			],
+			[
+				"sca",
+				"scaleY()"
+			],
+			[
+				"tra",
+				"transform"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal p",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"unfo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/portfolio/portfolio_showekb"
+	],
+	"file_history":
+	[
+		"/D/portfolio/portfolio_showekb/.gitignore",
+		"/D/portfolio/portfolio_showekb/package.json",
+		"/D/tockkaru_tz/src/styles/vars.scss",
+		"/D/tockkaru_tz/src/styles/main.scss",
+		"/D/tockkaru_tz/src/index.html",
+		"/D/tockkaru_tz/src/scripts/slider.js",
+		"/D/tockkaru_tz/src/index.js",
+		"/D/tockkaru_tz/webpack.config.js",
+		"/D/tockkaru_tz/package.json",
+		"/D/tockkaru_tz/src/styles/reset.css",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/Stat4Market_tz/src/styles/main.scss",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/Stat4Market_tz/src/styles/vars.scss",
+		"/D/womanup-tz/package.json",
+		"/D/womanup-tz/public/index.html",
+		"/D/Вадим/фриланс/2015/Александр Верин/4 сумма строк двумерного массива/TASK_4.PAS",
+		"/D/vadim-moshev.github.io/test/womanup/index.html",
+		"/D/vadim-moshev.github.io/test/womanup/asset-manifest.json",
+		"/D/womanup-tz/build/index.html",
+		"/D/womanup-tz/src/stores/tasksStore.js",
+		"/D/womanup-tz/src/pages/taskViewer/index.jsx",
+		"/D/womanup-tz/src/pages/taskEditor/index.module.css",
+		"/D/womanup-tz/src/pages/taskEditor/index.jsx",
+		"/D/womanup-tz/src/pages/taskViewer/index.module.css",
+		"/D/womanup-tz/src/components/taskItem/index.jsx",
+		"/D/womanup-tz/src/components/taskItem/index.module.css",
+		"/D/womanup-tz/src/pages/tasksList/index.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/yeticrab_tz/src/pages/requestsEditor/index.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/yeticrab_tz/src/components/universalInput/index.jsx",
+		"/D/womanup-tz/src/components/tasksContainer/index.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/totsystems_tz/src/stores/messagesStore.js",
+		"/D/apricode_work/awesome-people/src/index.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/index.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/yeticrab_tz/src/stores/requestsStore.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/pages/booksEditor/index.jsx",
+		"/D/womanup-tz/src/App.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/stores/booksStore.js",
+		"/D/womanup-tz/src/pages/taskEditor/handlers.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/apptrix-tz/src/App.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/totsystems_tz/src/App.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/videosystems-tz/src/App.js",
+		"/D/womanup-tz/src/stores/routing.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/helpers/booksStorage.js",
+		"/D/womanup-tz/src/pages/tasksList/index.module.css",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Музыка с плеера/Маяк/+ PlayLists/Маяк.m3u",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/apptrix-tz/src/pages/timesheet/index.jsx",
+		"/D/womanup-tz/src/components/tasksContainer/index.module.css",
+		"/D/womanup-tz/src/App.css",
+		"/D/freelance/OTE_Tour/frontend/src/Components/Heading/Heading.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/totsystems_tz/src/pages/board/index.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/App.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/pages/booksList/index.jsx",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/yeticrab_tz/src/pages/requestsList/index.jsx",
+		"/D/jetstyle_tz/package-lock.json",
+		"/D/jetstyle_tz/package.json",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/stores/index.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/src/stores/routing.js",
+		"/D/womanup-tz/src/stores/index.js",
+		"/D/womanup-tz/README.md",
+		"/D/womanup-tz/src/index.js",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/package.json",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/Тестовые задания/jetstyle_tz/.gitignore",
+		"/D/vadim-moshev.github.io/.gitignore",
+		"/D/Вадим/ПАПКА ДЛЯ РАБОТЫ/new-video-mmvs/.gitignore",
+		"/D/DISTR/Игры/Quake 2/baseq2/power.cfg",
+		"/D/DISTR/Игры/Quake 2/weapons/config.cfg",
+		"/D/DISTR/Игры/Quake 2/baseq2/boss.cfg",
+		"/D/DISTR/Игры/Quake 2/baseq2/killme.cfg",
+		"/D/DISTR/Игры/Quake 2/baseq2/warehouse.cfg",
+		"/D/DISTR/Игры/Quake 2/baseq2/config.cfg",
+		"/D/Работа it invest/сталекс/templates/index.html",
+		"/D/freelance/public_html/package.json",
+		"/D/Schnider-consult-tz/index.html",
+		"/D/sticker-notes/package.json",
+		"/D/sticker-notes/tsconfig.json",
+		"/D/sticker-notes/_cmd.bat",
+		"/D/Schnider-consult-tz/styles/content.css",
+		"/D/Schnider-consult-tz/scripts/closestMonday.js",
+		"/D/vadim-moshev.github.io/portfolio/audioprocessing/index.html",
+		"/D/Schnider-consult-tz/styles/vars.css",
+		"/D/Schnider-consult-tz/styles/nav.css",
+		"/D/Вадим/ПАПКА ДЛЯ РАБОТЫ/new-video-mmvs/index.html",
+		"/D/Schnider-consult-tz/styles/footer.css",
+		"/D/Schnider-consult-tz/styles/header.css",
+		"/D/Schnider-consult-tz/styles/index.css",
+		"/D/Schnider-consult-tz/styles/slider.css",
+		"/D/Schnider-consult-tz/styles/reset.css",
+		"/D/Вадим/ПАПКА ДЛЯ РАБОТЫ/new-video-mmvs/styles/styles.css",
+		"/D/Вадим/ПАПКА ДЛЯ РАБОТЫ/new-video-mmvs/styles/vars.css",
+		"/D/apptrix-tz/src/components/privateRoute/index.jsx",
+		"/D/apptrix-tz/src/App.js",
+		"/D/apptrix-tz/src/pages/timesheet/index.jsx",
+		"/D/apptrix-tz/src/pages/auth/index.jsx",
+		"/D/apptrix-tz/src/pages/logout/index.jsx",
+		"/D/apptrix-tz/src/pages/issues/index.jsx",
+		"/D/apptrix-tz/src/utils/localStorage.js",
+		"/D/apptrix-tz/src/pages/mainPage/mainPage.module.css",
+		"/D/apptrix-tz/src/asyncActions/login.js",
+		"/D/apptrix-tz/src/asyncActions/fetchTimesheet.js",
+		"/D/apptrix-tz/src/store/issuesReducer.js",
+		"/D/apptrix-tz/src/asyncActions/fetchIssues.js",
+		"/D/apptrix-tz/src/asyncActions/fetchUsers.js",
+		"/D/apptrix-tz/src/store/usersReducer.js",
+		"/D/apptrix-tz/src/components/loaders/bigLoader/index.jsx",
+		"/D/apptrix-tz/src/pages/userCard/index.jsx",
+		"/D/apptrix-tz/src/pages/mainPage/index.jsx",
+		"/D/apptrix-tz/src/components/loaders/bigLoader/bigLoader.module.css",
+		"/D/apptrix-tz/src/api/index.js",
+		"/D/apptrix-tz/src/components/loaders/smallLoader/index.jsx",
+		"/D/apptrix-tz/src/components/loaders/smallLoader/smallLoader.module.css",
+		"/D/apptrix-tz/src/store/authReducer.js",
+		"/D/apptrix-tz/src/pages/auth/auth.module.css",
+		"/D/apptrix-tz/src/components/menu/index.jsx",
+		"/D/apptrix-tz/src/components/authErrorMessage/index.jsx",
+		"/D/apptrix-tz/src/components/loaders/smallLoader/smallLoader.html",
+		"/D/apptrix-tz/src/components/loaders/largeLoader/index.jsx",
+		"/D/apptrix-tz/src/components/loaders/largeLoader/largeLoader.module.css",
+		"/D/apptrix-tz/src/components/loaders/largeLoader/largeLoader.html",
+		"/D/apptrix-tz/src/components/authErrorMessage/authErrorMessage.module.css",
+		"/D/apptrix-tz/src/utils/index.js",
+		"/D/apptrix-tz/src/components/issuesFilter/issuesFilter.module.css",
+		"/D/apptrix-tz/src/components/usersTable/index.jsx",
+		"/D/apptrix-tz/src/utils/utils.js",
+		"/D/apptrix-tz/src/pages/timesheet/timesheet.module.css",
+		"/D/apptrix-tz/src/components/issuesFilter/index.jsx",
+		"/D/apptrix-tz/src/pages/userCard/userCard.module.css",
+		"/D/apptrix-tz/src/pages/issues/issues.module.css",
+		"/D/apptrix-tz/src/store/index.js",
+		"/D/apptrix-tz/src/components/dataTable/index.jsx"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+			"D:\\apptrix-tz\\src",
+			"D:\\apptrix-tz",
+			"D:\\freelance\\OTE_Tour\\frontend",
+			"D:\\freelance\\OTE_Tour\\frontend\\src",
+			"D:\\freelance\\OTE_Tour\\frontend",
+			"D:\\Stat4Market_tz\\src",
+			"D:\\Вадим\\ПАПКА ДЛЯ РАБОТЫ\\new-video-mmvs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"linea",
+			"font-style: normal",
+			"slider__slide-text-part",
+			"prev",
+			"png",
+			"main-width",
+			"sprite-soc-",
+			"][",
+			"A",
+			"/test/womanup/",
+			"manife",
+			"m",
+			"done",
+			"deadline",
+			"getRequestById",
+			"fetchedBook",
+			"useEffect",
+			"getRequestById",
+			"toJS",
+			"BrowserRouter",
+			"saveMessage",
+			"reset",
+			"tasksList",
+			"toJS",
+			"button",
+			"0O:",
+			"\\YandexDisk\\НЕСИНХРОНИЗИРОВАННАЯ ПАПКА\\Музыка с плеера\\Маяк\\",
+			"\u0014",
+			"\u0011",
+			"\u0017",
+			"\u001a",
+			"\u0012",
+			"\u001f",
+			"\u001c",
+			"\\YandexDisk\\НЕСИНХРОНИЗИРОВАННАЯ ПАПКА\\Музыка с плеера\\Маяк",
+			"getRequestById",
+			"fetchedRequest",
+			"buttomn",
+			"messages",
+			"fetchTaskList",
+			"requests",
+			"TasksList",
+			"O",
+			"Records",
+			"gr",
+			"weap",
+			"куплет",
+			"closet",
+			"footer-link",
+			"footer-nav__list-item",
+			"footer-",
+			"href",
+			"footer-nav__link",
+			"</a>",
+			"<a class=\"nav__link\" href=\"#\">",
+			"div",
+			"?</",
+			"div",
+			"(",
+			"header",
+			"localStorage",
+			"removeItem",
+			"Link",
+			"Users",
+			"LargeLoader",
+			"largeLoader",
+			"setUsersLoading",
+			"fetchedUsers",
+			"SET_USER_LOADING",
+			"clearFetchedUserByIdAction",
+			"CLEAR_FETCHED_USERS",
+			"clearFetchedUsersAction",
+			"f1f2f3",
+			"ldio-e473320ihff",
+			"loadingio-spinner-rolling-widyzu4rng",
+			"ldio-o17wxw6yxpc",
+			"loadingio-spinner-rolling-r4qhviafzhh",
+			"class",
+			"ldio-yyyebbadl1b",
+			"loadingio-spinner-rolling-smfuri35r5o",
+			"smallLoader",
+			"ldio-76iq2429jhn",
+			"class",
+			"loadingio-spinner-spinner-vnkndlhw3d",
+			"ldio-76iq2429jhn",
+			"password",
+			"authorizeAction",
+			"authorized",
+			"access",
+			"minutesTotal",
+			"fetchTimesheetAction",
+			"timesheetsData",
+			"timesheetsLink",
+			"timesheets",
+			"Timesheets",
+			"fetchTimesheetsByIssueId",
+			"Issues",
+			"Timesheet",
+			"let",
+			"const",
+			"CHANGE_FILTER_STRING",
+			"changeFilterStringAction",
+			"fetchedIssues",
+			"useEffect",
+			"const",
+			"Users",
+			"fetchedIssues",
+			"users",
+			"Number",
+			"record",
+			"usersTable",
+			"clearFetchedUserByIdAction",
+			"CLEAR_FETCHED_USERS",
+			"});\n",
+			"userId",
+			"auth",
+			"headCells",
+			"cn(styles.cell)",
+			"DataTable",
+			"dataTable",
+			"UsersTable",
+			"th",
+			"thead",
+			"}\n",
+			"\"",
+			"const",
+			"runInAction",
+			"routing"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"BigLoader",
+			"bigLoader",
+			"timesheet",
+			"Timesheet",
+			"UsersTable",
+			"usersTable",
+			"page-section__start-price-value",
+			"pale-blue",
+			"resource-item"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
