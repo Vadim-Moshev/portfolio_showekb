@@ -23,7 +23,38 @@
 
   .header__order-button {
     @include like-button(none, 3px, $gradient-45, #000);
-    width: 200px;
-    height: 50px;
+    min-width: 222px;
+    border-radius: $rounded;
+
+    .header__order-button-backgound {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: $rounded;
+      background-color: #fff;
+      height: 100%;
+      padding: 8px;
+      transition: all 0.2s ease-in;
+
+      .header__order-button-caption {
+        @include font(21px, "cuprum_regular", #000, 1.2);
+        margin-bottom: 3px;
+        transition: all 0.2s ease-in;
+      }
+
+      .header__order-button-notice {
+        @include font(12px, "Arial", #000, 1.2);
+        transition: all 0.2s ease-in;
+      }
+    }
+
+    &:hover .header__order-button-backgound {
+      background-color: transparent;
+    }
+
+    &:hover .header__order-button-notice,
+    &:hover .header__order-button-caption {
+      color: #fff;
+    }
   }
 }
