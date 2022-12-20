@@ -1,7 +1,28 @@
 @import "./reset.css";
 @import "./fonts.css";
+@import "./vars";
+@import "./mixins";
+@import "./fragments/_header";
 
-.c {
-  font-family: "nautilus_pompilius";
-  font-size: 30px;
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+}
+
+.wrapper {
+  width: 1260px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  // @include side-paddings;
+}
+
+.main {
+  flex: 1 1 auto;
 }
