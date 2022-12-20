@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  @include side-paddings;
+
+  .header__site-description {
+    @include font(16px, "Arial", #9d9d9d, 1.2);
+    width: 220px;
+    text-align: right;
+  }
+
+  .header__schedule-title {
+    @include font(18px, "cuprum_regular", #000, 1.2);
+    width: 125px;
+    margin-bottom: 12px;
+  }
+
+  .header__schedule-content {
+    @include font(14px, "Arial", #000, 1.2);
+  }
+
+  .header__order-button {
+    @include like-button(none, 3px, $gradient-45, #000);
+    width: 200px;
+    height: 50px;
+  }
+}

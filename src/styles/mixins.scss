@@ -2,3 +2,18 @@
   padding-left: 23px;
   padding-right: 19px;
 }
+
+@mixin font($size, $family, $color, $line-height) {
+  font-size: $size;
+  font-family: $family;
+  color: $color;
+  line-height: $line-height;
+}
+
+@mixin like-button($border, $padding, $background-color, $color) {
+  padding: $padding;
+  border: $border;
+  text-decoration: none;
+  background: $background-color;
+  cursor: pointer;
+}
