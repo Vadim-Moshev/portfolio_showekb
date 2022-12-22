@@ -57,4 +57,53 @@
       color: #fff;
     }
   }
+
+  .header__search-and-phone {
+    display: flex;
+    flex-direction: column;
+
+    .header__phone {
+      @include font(35px, "cuprum_regular", #414141, 1.2);
+      margin-bottom: 16px;
+      text-decoration: none;
+
+      .header__phone-number {
+        @include font(42px, "cuprum_regular", $violet, 1.2);
+      }
+    }
+
+    .header__search-form {
+      position: relative;
+
+      .header__textfield {
+        $padding-left: 30px;
+        padding-left: $padding-left;
+        padding-right: 10px;
+        width: calc(100% - $padding-left);
+        border: 1px #bdbdbd solid;
+        border-radius: 10px;
+        outline: none;
+        transition: border-color 0.3s linear;
+        font-size: 18px;
+
+        &:focus {
+          border-color: $violet;
+        }
+      }
+
+      .header__search-button {
+        @include like-button(none, 0, transparent, #fff);
+        position: absolute;
+        left: 8px;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+
+        &:after {
+          content: "";
+          @include sprite-ico(18px, 18px, -209px -114px);
+        }
+      }
+    }
+  }
 }
