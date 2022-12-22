@@ -1,0 +1,35 @@
+.header__nav {
+  @include font(22px, "cuprum_regular", #000, 1.2);
+  display: flex;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(to right, $violet, #c1c1c1);
+  }
+
+  .header__nav-link {
+    flex-grow: 1;
+    $padding: 15px 0;
+    color: #000;
+    text-decoration: none;
+    padding: $padding;
+    text-align: center;
+    transition: background-color 0.3s linear, color 0.3s linear;
+
+    &--active,
+    &:hover {
+      flex-grow: 1;
+      padding: $padding;
+      background-color: $violet;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
