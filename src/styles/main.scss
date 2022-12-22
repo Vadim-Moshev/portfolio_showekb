@@ -3,7 +3,7 @@
 @import "./vars";
 @import "./mixins";
 @import "./fragments/_header";
-@import "./fragments/_nav";
+@import "./fragments/_footer";
 
 body,
 html {
@@ -14,14 +14,13 @@ body {
   background-image: url("../images/background.jpg");
 }
 
-.wrapper {
+.global-wrapper {
   width: 1260px;
   margin: 0 auto;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "cuprum_regular";
 }
 
 .main {
