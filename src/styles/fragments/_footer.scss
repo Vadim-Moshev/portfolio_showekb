@@ -1,54 +1,49 @@
 .footer {
   display: flex;
   padding: 0 0 24px $side-padding;
-  justify-content: space-between;
+  gap: 40px;
 
-  .footer__menues {
-    display: flex;
-    gap: 80px;
+  .footer__nav {
+    width: 220px;
 
-    .footer__menu-item {
-      width: 220px;
+    .footer__nav-header {
+      @include font(20px, "cuprum_regular", #000, 1.2);
+      margin-bottom: 23px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
 
-      .footer__menu-header {
-        @include font(20px, "cuprum_regular", #000, 1.2);
-        margin-bottom: 23px;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-      }
+    .footer__nav-links {
+      display: flex;
+      flex-direction: column;
 
-      .footer__menu-links {
-        display: flex;
-        flex-direction: column;
+      .footer__nav-link-container {
+        padding-left: 25px;
+        .footer__nav-link-item {
+          @include font(14px, "Arial", #000, 1.786);
+          position: relative;
+          text-decoration: none;
+          display: inline-block;
 
-        .footer__menu-link-container {
-          padding-left: 25px;
-          .footer__menu-link-item {
-            @include font(14px, "Arial", #000, 1.786);
-            position: relative;
-            text-decoration: none;
-            display: inline-block;
+          &:hover {
+            text-decoration: underline;
+          }
 
-            &:hover {
-              text-decoration: underline;
-            }
+          &:after {
+            @include sprite-ico(15px, 15px, -209px -134px);
+            content: "";
+            position: absolute;
+            left: -25px;
+            top: 3px;
+            filter: grayscale(1);
+            transform: rotateZ(0);
+            transition: filter 0.5s linear, transform 0.5s linear;
+          }
 
-            &:after {
-              @include sprite-ico(15px, 15px, -209px -134px);
-              content: "";
-              position: absolute;
-              left: -25px;
-              top: 3px;
-              filter: grayscale(1);
-              transform: rotateZ(0);
-              transition: filter 0.5s linear, transform 0.5s linear;
-            }
-
-            &:hover:after {
-              filter: grayscale(0);
-              transform: rotateZ(144deg);
-            }
+          &:hover:after {
+            filter: grayscale(0);
+            transform: rotateZ(144deg);
           }
         }
       }
