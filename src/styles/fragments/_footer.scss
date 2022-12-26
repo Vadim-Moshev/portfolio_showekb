@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  padding: 0 0 24px $side-padding;
+  padding: 0 $side-padding 24px;
   gap: 40px;
 
   .footer__nav {
@@ -46,6 +46,44 @@
             transform: rotateZ(144deg);
           }
         }
+      }
+    }
+  }
+
+  .footer__misc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .footer__order-button {
+      @include like-button(none, 3px, $gradient-45, #000);
+      min-width: 222px;
+      border-radius: $rounded;
+
+      .footer__order-button-backgound {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: $rounded;
+        background-color: #fff;
+        padding: 19px 18px;
+        @include font(18px, "cuprum_regular", #000, 1.2);
+        transition: background-color 0.2s ease-in, color 0.2s ease-in;
+      }
+
+      &:hover .footer__order-button-backgound {
+        background-color: transparent;
+        color: #fff;
+      }
+    }
+
+    .footer__it-invest {
+      filter: grayscale(1);
+
+      &:hover {
+        transition: filter 0.5s linear;
+        filter: grayscale(0);
       }
     }
   }
