@@ -11,12 +11,81 @@
   z-index: 100;
 
   .modal-popup {
-    padding: 36px 78px 10px;
+    padding: 36px 78px 21px;
     background-color: $violet;
+    border-radius: $rounded;
+    outline: 1px solid #fff;
+    outline-offset: -9px;
 
     .modal-popup__header {
       @include font(32px, "cuprum_regular", #fff, 1.2);
       margin-bottom: 37px;
+      text-align: center;
+    }
+
+    .modal-popup__form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .modal-popup__form-row,
+      .modal-popup__form-row--with-textarea {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+
+        &--with-textarea {
+          flex-direction: column;
+          align-items: initial;
+          gap: 14px;
+        }
+
+        .modal-popup__field-label {
+          width: 163px;
+          @include font(18px, "Arial", #fff, 1.2);
+        }
+
+        .modal-popup__text-field,
+        .modal-popup__textarea {
+          @include font(16px, "Arial", #fff, 1.2);
+          $side-padding: 15px;
+          padding: 9px $side-padding;
+          width: calc(263px - 2 * $side-padding);
+          border-radius: $rounded;
+          border: 1px solid transparent;
+          outline: none;
+          background-color: rgba(255, 255, 255, 0.2);
+
+          &:focus {
+            border-color: #fff;
+          }
+        }
+
+        .modal-popup__textarea {
+          width: auto;
+          resize: vertical;
+          min-height: 120px;
+        }
+      }
+
+      .modal-popup__submit {
+        @include like-button(3px solid #fff, 21px 71px, transparent, #fff);
+        @include font(20px, "cuprum_regular", #fff, 1.2);
+        align-self: center;
+        transition: background-color 0.3s linear, color 0.3s linear,
+          transform 0.2s linear;
+        transform: scale(1);
+        border-radius: $rounded;
+
+        &:hover {
+          background-color: #fff;
+          color: $violet;
+        }
+
+        &:active {
+          transform: scale(0.9);
+        }
+      }
     }
   }
 }
