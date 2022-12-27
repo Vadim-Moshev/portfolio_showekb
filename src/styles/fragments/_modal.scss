@@ -11,8 +11,12 @@
   z-index: 100;
 
   .modal-popup {
-    width: 400px;
+    padding: 36px 78px 10px;
     background-color: $violet;
-    height: 300px;
+
+    .modal-popup__header {
+      @include font(32px, "cuprum_regular", #fff, 1.2);
+      margin-bottom: 37px;
+    }
   }
 }
