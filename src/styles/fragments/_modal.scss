@@ -9,6 +9,11 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 100;
+  display: none;
+
+  &--visible {
+    display: flex;
+  }
 
   .modal-popup {
     padding: 36px 78px 21px;
@@ -17,6 +22,10 @@
     outline: 1px solid #fff;
     outline-offset: -9px;
     position: relative;
+
+    .visible {
+      display: block;
+    }
 
     .modal-popup__close {
       @include like-button(2px solid #fff, 17px, transparent, #fff);
