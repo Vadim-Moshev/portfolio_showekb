@@ -22,8 +22,9 @@
     outline: 1px solid #fff;
     outline-offset: -9px;
     position: relative;
+    display: none;
 
-    .visible {
+    &--visible {
       display: block;
     }
 

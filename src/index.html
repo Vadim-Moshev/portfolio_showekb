@@ -7,8 +7,8 @@
     <title>Title</title>
   </head>
   <body>
-    <div id="overlay" class="modal-overlay modal-overlay--visible">
-      <div class="modal-popup">
+    <div id="overlay" class="modal-overlay">
+      <div id="popup" class="modal-popup">
         <button id="close-popup" class="modal-popup__close"></button>
         <div class="modal-popup__header">Оформить заявку</div>
         <form class="modal-popup__form" action="">
@@ -46,7 +46,7 @@
               сб-вс — выходные
             </div>
           </div>
-          <button class="header__order-button">
+          <button id="order-button-header" class="header__order-button">
             <span class="header__order-button-backgound">
               <span class="header__order-button-caption">
                 Заказать мероприятие
@@ -146,7 +146,7 @@
         </div>
 
         <div class="footer__misc">
-          <button class="footer__order-button">
+          <button id="order-button-footer" class="footer__order-button">
             <span class="footer__order-button-backgound">
               Заказать мероприятие
             </span>
