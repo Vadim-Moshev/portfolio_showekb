@@ -16,6 +16,45 @@
     border-radius: $rounded;
     outline: 1px solid #fff;
     outline-offset: -9px;
+    position: relative;
+
+    .modal-popup__close {
+      @include like-button(2px solid #fff, 17px, transparent, #fff);
+      border-radius: 50%;
+      position: absolute;
+      right: 18px;
+      top: 14px;
+      transform: rotate(45deg);
+      transition: background-color 0.3s linear;
+
+      &:hover {
+        background-color: #fff;
+      }
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 2px;
+        width: 30px;
+        background-color: #fff;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: background-color 0.3s linear;
+      }
+
+      &:after {
+        height: 30px;
+        width: 2px;
+      }
+
+      &:hover:after,
+      &:hover:before {
+        background-color: $violet;
+      }
+    }
 
     .modal-popup__header {
       @include font(32px, "cuprum_regular", #fff, 1.2);
