@@ -1,5 +1,4 @@
 .modal-overlay {
-  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -9,10 +8,13 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 100;
+  opacity: 0;
+  transition: opacity 0.3s linear;
   display: none;
 
   &--visible {
-    display: flex;
+    // display: flex;
+    opacity: 1;
   }
 
   .modal-popup {

@@ -12,12 +12,22 @@ const orderButtonHeader = getById("order-button-header");
 const orderButtonFooter = getById("order-button-footer");
 
 const openPopupHandler = () => {
-  alert("хай!");
+  toggleScrollVisibility(false);
+
+  overlay.style.display = "flex";
+  setTimeout(() => {
+    overlay.classList.add("modal-overlay--visible");
+  }, 0);
 };
 
 const closePopupHandler = () => {
   overlay.classList.remove("modal-overlay--visible");
-  toggleScrollVisibility(true);
+  overlay.addEventListener("transitionend", function animateOverlayClosing() {
+    overlay.style.display = "none";
+    toggleScrollVisibility(true);
+
+    overlay.removeEventListener("transitionend", animateOverlayClosing);
+  });
 };
 
 orderButtonHeader?.addEventListener("click", openPopupHandler);
