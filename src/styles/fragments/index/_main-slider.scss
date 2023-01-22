@@ -1,0 +1,43 @@
+.main-slider {
+  .main-slider__slides-container {
+    position: relative;
+    height: 594px;
+
+    .main-slider__slide-item {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 594px;
+      padding: 0 $side-padding;
+      background-image: url("../images/main-slider/business-events.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0;
+
+      &.slide-visible {
+        opacity: 1;
+      }
+
+      .main-slider__slide-text-part {
+        width: 334px;
+        padding-top: 44px;
+
+        .main-slider__slide-header {
+          @include font(36px, "calibri_light", #fff, 1.2);
+          padding: 0 4px 16px;
+        }
+
+        .main-slider__stroke {
+          height: 1px;
+          background-color: #fff;
+        }
+
+        .main-slider__slide-description {
+          @include font(18px, "calibri_light_italic", #fff, 1.2);
+          padding: 19px 4px 0;
+        }
+      }
+    }
+  }
+}

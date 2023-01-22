@@ -1,10 +1,14 @@
 @import "./reset.css";
 @import "./fonts.css";
+
 @import "./vars";
 @import "./mixins";
+
 @import "./fragments/_header";
 @import "./fragments/_footer";
 @import "./fragments/_modal";
+
+@import "./fragments/index/_main-slider";
 
 body,
 html {
