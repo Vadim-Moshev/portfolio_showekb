@@ -10,10 +10,25 @@
       right: 0;
       height: 594px;
       padding: 0 $side-padding;
-      background-image: url("../images/main-slider/business-events.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       opacity: 0;
+
+      &.weddings {
+        background-image: url("../images/main-slider/weddings-ogranization.jpg");
+      }
+
+      &.corporative {
+        background-image: url("../images/main-slider/coorparative-events.jpg");
+      }
+
+      &.business {
+        background-image: url("../images/main-slider/business-events.jpg");
+      }
+
+      &.kids {
+        background-image: url("../images/main-slider/kids-holidays.jpg");
+      }
 
       &.slide-visible {
         opacity: 1;
