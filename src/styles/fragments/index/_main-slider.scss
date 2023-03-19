@@ -1,4 +1,6 @@
 .main-slider {
+  position: relative;
+
   .main-slider__slides-container {
     position: relative;
     height: 594px;
@@ -51,6 +53,81 @@
         .main-slider__slide-description {
           @include font(18px, "calibri_light_italic", #fff, 1.2);
           padding: 19px 4px 0;
+        }
+      }
+    }
+  }
+
+  .main-slider__bottom-pannel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .main-slider__slides-switch {
+      display: flex;
+      padding: 0 $side-padding;
+
+      .main-slider__switch-item-radio {
+        display: none;
+
+        &:checked + .main-slider__switch-item-label {
+          background-color: $transparent-violet;
+          cursor: default;
+        }
+      }
+
+      .main-slider__switch-item-label {
+        display: flex;
+        gap: 8px;
+        padding: 14px 12px 20px 12px;
+        background-color: $transparent-black;
+        cursor: pointer;
+        transition: background-color 0.3s linear;
+        flex-grow: 1;
+
+        &:hover {
+          background-color: $transparent-gray;
+        }
+
+        .main-slider__switch-item-left {
+          .main-slider__switch-item-ico {
+            @include sprite-ico(102px, 102px, -105px -105px);
+          }
+
+          .weddings-org {
+            background-position: -105px -105px;
+          }
+
+          .corps-evt {
+            background-position: -105px -1px;
+          }
+
+          .business-evt {
+            background-position: -1px -1px;
+          }
+
+          .kids-evt {
+            background-position: -1px -105px;
+          }
+        }
+
+        .main-slider__switch-item-right {
+          padding-top: 6px;
+          color: #fff;
+          width: 144px;
+
+          .main-slider__switch-item-header {
+            height: 45px;
+            @include font(22px, "calibri_light", #fff, 1.2);
+            margin-bottom: 16px;
+            text-transform: capitalize;
+          }
+
+          .main-slider__switch-item-description {
+            height: 68px;
+            @include font(12px, "Arial", #fff, 1.2);
+          }
         }
       }
     }
