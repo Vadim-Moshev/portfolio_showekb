@@ -15,12 +15,15 @@
       background-size: cover;
       background-repeat: no-repeat;
       opacity: 0;
+      pointer-events: none;
+      user-select: none;
+      transition: opacity 0.3s linear;
 
       &.weddings {
         background-image: url("../images/main-slider/weddings.jpg");
       }
 
-      &.corporative {
+      &.corporatives {
         background-image: url("../images/main-slider/corporative.jpg");
       }
 
@@ -34,6 +37,8 @@
 
       &.slide-visible {
         opacity: 1;
+        pointer-events: auto;
+        user-select: auto;
       }
 
       .main-slider__slide-text-part {
@@ -85,6 +90,7 @@
         cursor: pointer;
         transition: background-color 0.3s linear;
         flex-grow: 1;
+        backdrop-filter: $backdrop-filter-blur;
 
         &:hover {
           background-color: $transparent-gray;
