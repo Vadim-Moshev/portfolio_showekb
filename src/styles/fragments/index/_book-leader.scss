@@ -1,0 +1,10 @@
+.book-leader {
+  @include side-paddings;
+  padding-top: 33px;
+
+  .book-leader__leaders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px 16px;
+  }
+}

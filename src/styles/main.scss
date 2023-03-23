@@ -9,6 +9,7 @@
 @import "./fragments/_modal";
 
 @import "./fragments/index/_main-slider";
+@import "./fragments/index/_book-leader";
 
 body,
 html {
@@ -42,6 +43,6 @@ body {
   padding: 5px;
   border-radius: $rounded;
   background-color: $violet;
-  @include font(24px, "calibri_light", #000, 1.2);
+  @include font(24px, "calibri_light", #fff, 1.2);
   margin-bottom: 30px;
 }
