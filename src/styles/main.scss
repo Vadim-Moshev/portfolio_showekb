@@ -31,3 +31,17 @@ body {
 .main {
   flex: 1 1 auto;
 }
+
+.section-header {
+  @include font(42px, "calibri_light", #000, 1.2);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.notice {
+  padding: 5px;
+  border-radius: $rounded;
+  background-color: $violet;
+  @include font(24px, "calibri_light", #000, 1.2);
+  margin-bottom: 30px;
+}
