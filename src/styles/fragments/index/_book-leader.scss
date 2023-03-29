@@ -11,7 +11,7 @@
       position: relative;
       width: 293px;
       height: 394px;
-      outline: 1px solid #000;
+      // outline: 1px solid #000;
 
       .book-leader__leader-photo {
         position: relative;
@@ -19,6 +19,79 @@
         top: 0;
         width: inherit;
         height: inherit;
+      }
+
+      .book-leader__leader-info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        .book-leader__leader-about {
+          $v-padding: 30px;
+          padding: $v-padding 12px $v-padding 26px;
+          height: 323px - 2 * $v-padding;
+          background-color: $transparent-violet;
+          backdrop-filter: $backdrop-filter-blur;
+          overflow: hidden;
+
+          .book-leader__leader-name {
+            @include font(30px, "calibri_light", #fff, 1.2);
+            margin-bottom: 17px;
+          }
+
+          .book-leader__leader-occupation {
+            @include font(18px, "calibri_light", #fff, 1.2);
+            margin-bottom: 10px;
+          }
+
+          .book-leader__stroke {
+            border: none;
+            border-bottom: 1px solid #fff;
+            margin-bottom: 24px;
+          }
+
+          .book-leader__leader-description {
+            height: 109px;
+            margin-bottom: 26px;
+            @include font(12px, "Arial", #fff, 1.2);
+          }
+
+          .book-leader__buttons {
+            display: flex;
+            gap: 8px;
+
+            .book-leader__button-item {
+              @include like-button(3px solid #fff, 15px, transparent, #fff);
+              @include font(16px, "cuprum_regular", #fff, 0);
+              border-radius: $rounded;
+              transition: color 0.3s linear, background-color 0.3s linear;
+
+              &:hover {
+                color: $violet;
+                background-color: #fff;
+              }
+            }
+          }
+        }
+
+        .book-leader__leader-interest {
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          background-color: $transparent-black;
+          backdrop-filter: $backdrop-filter-blur;
+          padding: 26px;
+
+          .book-leader__leader-fee {
+            @include font(30px, "calibri_regular", #fff, 1.2);
+            font-weight: bold;
+          }
+
+          .book-leader__leader-period {
+            @include font(18px, "calibri_light", #fff, 1.2);
+          }
+        }
       }
     }
   }
