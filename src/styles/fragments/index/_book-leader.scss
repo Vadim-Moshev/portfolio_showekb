@@ -26,18 +26,23 @@
         left: 0;
         right: 0;
         bottom: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
 
         .book-leader__leader-about {
           $v-padding: 30px;
           padding: $v-padding 12px $v-padding 26px;
-          height: 323px - 2 * $v-padding;
-          background-color: $transparent-violet;
+          height: 45px;
+          background-color: $transparent-black;
           backdrop-filter: $backdrop-filter-blur;
           overflow: hidden;
+          transition: height 0.5s linear, background-color 0.5s linear;
 
           .book-leader__leader-name {
             @include font(30px, "calibri_light", #fff, 1.2);
-            margin-bottom: 17px;
+            margin-bottom: 5px;
           }
 
           .book-leader__leader-occupation {
@@ -47,8 +52,9 @@
 
           .book-leader__stroke {
             border: none;
-            border-bottom: 1px solid #fff;
+            border-bottom: 1px solid $violet;
             margin-bottom: 24px;
+            transition: border-bottom-color 0.5s linear;
           }
 
           .book-leader__leader-description {
@@ -91,6 +97,15 @@
           .book-leader__leader-period {
             @include font(18px, "calibri_light", #fff, 1.2);
           }
+        }
+
+        &:hover .book-leader__leader-about {
+          height: 263px;
+          background-color: $transparent-violet;
+        }
+
+        &:hover .book-leader__stroke {
+          border-bottom-color: #fff;
         }
       }
     }
