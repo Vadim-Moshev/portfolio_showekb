@@ -32,6 +32,8 @@
         justify-content: flex-end;
 
         .book-leader__leader-about {
+          display: flex;
+          flex-direction: column;
           padding: 10px 12px 10px 26px;
           height: 64px;
           background-color: $transparent-gray;
@@ -54,12 +56,17 @@
             border-bottom: 1px solid $violet;
             margin-bottom: 24px;
             transition: border-bottom-color 0.5s linear;
+            width: 100%;
           }
 
           .book-leader__leader-description {
             height: 109px;
             margin-bottom: 26px;
             @include font(12px, "Arial", #fff, 1.2);
+          }
+
+          .book-leader__flex-grow {
+            flex-grow: 1;
           }
 
           .book-leader__buttons {
