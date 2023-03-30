@@ -45,4 +45,8 @@ body {
   background-color: $violet;
   @include font(24px, "calibri_light", #fff, 1.2);
   margin-bottom: 30px;
+
+  a {
+    color: #fff;
+  }
 }
