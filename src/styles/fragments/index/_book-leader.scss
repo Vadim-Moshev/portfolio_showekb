@@ -32,11 +32,11 @@
         justify-content: flex-end;
 
         .book-leader__leader-about {
-          $v-padding: 30px;
+          $v-padding: 10px;
           padding: $v-padding 12px $v-padding 26px;
-          height: 45px;
-          background-color: $transparent-black;
-          backdrop-filter: $backdrop-filter-blur;
+          height: 64px;
+          background-color: $transparent-gray;
+          backdrop-filter: blur(0);
           overflow: hidden;
           transition: height 0.5s linear, background-color 0.5s linear;
 
@@ -85,9 +85,9 @@
           display: flex;
           gap: 12px;
           align-items: center;
-          background-color: $transparent-black;
-          backdrop-filter: $backdrop-filter-blur;
-          padding: 26px;
+          background-color: $transparent-gray;
+          backdrop-filter: blur(0);
+          padding: 7px 26px;
 
           .book-leader__leader-fee {
             @include font(30px, "calibri_regular", #fff, 1.2);
@@ -100,7 +100,7 @@
         }
 
         &:hover .book-leader__leader-about {
-          height: 263px;
+          height: 324px;
           background-color: $transparent-violet;
         }
 
