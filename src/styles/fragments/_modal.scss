@@ -35,7 +35,7 @@
     }
 
     .modal-popup__close {
-      @include like-button(2px solid #fff, 17px, transparent, #fff);
+      @include like-button(2px solid #fff, 17px, transparent);
       border-radius: 50%;
       position: absolute;
       right: 18px;
@@ -124,7 +124,7 @@
       }
 
       .modal-popup__submit {
-        @include like-button(3px solid #fff, 21px 71px, transparent, #fff);
+        @include like-button(3px solid #fff, 21px 71px, transparent);
         @include font(20px, "cuprum_regular", #fff, 1.2);
         align-self: center;
         transition: background-color 0.3s linear, color 0.3s linear,

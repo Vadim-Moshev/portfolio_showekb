@@ -10,11 +10,12 @@
   line-height: $line-height;
 }
 
-@mixin like-button($border, $padding, $background-color, $color) {
+@mixin like-button($border, $padding, $background-color, $color: #000) {
   padding: $padding;
   border: $border;
   text-decoration: none;
   background: $background-color;
+  color: $color;
   cursor: pointer;
 }
 

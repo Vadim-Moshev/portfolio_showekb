@@ -25,7 +25,7 @@
     }
 
     .header__order-button {
-      @include like-button(none, 3px, $gradient-45, #000);
+      @include like-button(none, 3px, $gradient-45);
       min-width: 222px;
       border-radius: $rounded;
 

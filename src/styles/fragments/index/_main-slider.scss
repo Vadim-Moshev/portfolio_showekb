@@ -200,7 +200,7 @@
         .main-slider__button {
           height: 40px;
           width: 255px;
-          @include like-button(none, 0, #fff, #000);
+          @include like-button(none, 0, #fff);
           @include font(26px, "cuprum_regular", #000, 0.577);
           border-radius: $rounded;
           transition: color 0.3s linear;
