@@ -42,7 +42,7 @@
           transition: height 0.5s linear, background-color 0.5s linear;
 
           .book-leader__leader-name {
-            @include font(30px, "calibri_light", #fff, 1.2);
+            @include font(25px, "calibri_light", #fff, 1.2);
           }
 
           .book-leader__leader-occupation {
