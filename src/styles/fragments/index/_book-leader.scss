@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 9px 14px;
+    margin-bottom: 15px;
 
     .book-leader__leader-item {
       position: relative;
@@ -112,6 +113,57 @@
         &:hover .book-leader__stroke {
           border-bottom-color: #fff;
         }
+      }
+    }
+  }
+
+  .book-leader__control-buttons {
+    display: flex;
+    gap: 14px;
+
+    .book-leader__control-button-narrow {
+      @include like-button(3px solid $violet, 23px 0, transparent);
+      @include font(22px, "cuprum_regular", #000, 0.682);
+      border-radius: $rounded;
+      width: 287px;
+      text-align: center;
+      transition: background-color 0.3s linear, color 0.3s linear;
+
+      &:hover {
+        color: #fff;
+        background-color: $violet;
+      }
+    }
+
+    .book-leader__control-button-wide {
+      position: relative;
+      @include like-button(3px solid $violet, 10px 0 29px, transparent);
+      @include font(32px, "cuprum_regular", #000, 0.682);
+      flex-grow: 1;
+      border-radius: $rounded;
+      transition: background-color 0.3s linear, color 0.3s linear;
+
+      &:after {
+        content: "";
+        position: absolute;
+        height: 0px;
+        width: 0px;
+        border: 22px solid transparent;
+        border-top: 9px solid $violet;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 44px;
+        transition: top 0.3s linear, border-top-color 0.3s linear;
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: $violet;
+      }
+
+      &:hover:after {
+        top: 48px;
+        border-top-color: #fff;
       }
     }
   }
