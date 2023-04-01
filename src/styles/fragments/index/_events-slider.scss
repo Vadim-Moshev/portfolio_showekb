@@ -26,12 +26,36 @@
       padding: 13px $side-padding 0;
       background-size: cover;
       background-repeat: no-repeat;
-      background-image: url("../images/events-slider/b-1.jpg");
+      opacity: 0;
+      pointer-events: none;
+      user-select: none;
+      transition: opacity 0.3s linear;
 
-      // opacity: 0;
-      // pointer-events: none;
-      // user-select: none;
-      // transition: opacity 0.3s linear;
+      &.slide-visible {
+        opacity: 1;
+        pointer-events: auto;
+        user-select: auto;
+      }
+
+      &.events-weddings {
+        background-image: url("../images/events-slider/weddings.jpg");
+      }
+
+      &.events-anniversaries {
+        background-image: url("../images/events-slider/anniversaries.jpg");
+      }
+
+      &.events-corporatives {
+        background-image: url("../images/events-slider/corporatives.jpg");
+      }
+
+      &.events-teambuildings {
+        background-image: url("../images/events-slider/teambuildings.jpg");
+      }
+
+      &.events-promos {
+        background-image: url("../images/events-slider/promos.jpg");
+      }
 
       .events-slider__slide-info {
         $padding-top: 27px;
