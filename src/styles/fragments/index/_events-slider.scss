@@ -36,13 +36,53 @@
       .events-slider__slide-info {
         $padding-top: 27px;
         $padding-right: 32px;
-        $padding-bottom: 37px;
+        $padding-bottom: 42px;
         $padding-left: 42px;
         padding: $padding-top $padding-right $padding-bottom $padding-left;
         width: $slide-info-width - $padding-left - $padding-right;
         height: $slide-info-height - $padding-top - $padding-bottom;
         background-color: $transparent-white;
         backdrop-filter: $backdrop-filter-blur;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+
+        .events-slider__slide-header {
+          @include font(50px, "calibri_light", #000, 1.08);
+        }
+
+        .events-slider__slide-description {
+          @include font(18px, "calibri_light", #000, 1.2);
+        }
+
+        .events-slider__slide-options {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          .events-slider__option-item {
+            display: flex;
+            align-items: center;
+            min-height: 55px;
+            position: relative;
+            @include font(28px, "calibri_light", #000, 1.2);
+            padding-left: 74px;
+
+            .events-slider__price {
+              font-weight: bold;
+              color: $violet;
+            }
+
+            &:before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              @include sprite-ico(55px, 55px, -239px -88px);
+            }
+          }
+        }
       }
     }
   }
