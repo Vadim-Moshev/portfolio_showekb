@@ -1,2 +1,46 @@
 .reports {
+  $tile-gap: 15px;
+  $big-tile-width: 604px;
+  $big-tile-height: 395px;
+  $small-tile-width: 295px;
+  $small-tile-height: 190px;
+
+  display: flex;
+  gap: $tile-gap;
+  padding-top: 15px;
+  @include side-paddings;
+
+  .reports__big {
+    position: relative;
+    width: $big-tile-width;
+    height: $big-tile-height;
+
+    .reports__cover {
+      @include absolute-cover;
+    }
+
+    .reports__photo-info {
+      @include absolute-cover;
+      @include font(14px, "calibri_light", #fff, 1.2);
+      top: initial;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      background-color: $transparent-black;
+      padding: 18px 38px 16px;
+      height: 123px;
+
+      .reports__photo-header {
+        height: 60px;
+        font-size: 30px;
+      }
+
+      .reports__stroke {
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid $violet;
+      }
+    }
+  }
 }
