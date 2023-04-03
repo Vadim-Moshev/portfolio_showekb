@@ -125,7 +125,6 @@
       @include font(22px, "cuprum_regular", #000, 0.682);
       border-radius: $rounded;
       width: 287px;
-      text-align: center;
       transition: background-color 0.3s linear, color 0.3s linear;
 
       &:hover {

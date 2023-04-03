@@ -17,6 +17,7 @@
   background: $background-color;
   color: $color;
   cursor: pointer;
+  text-align: center;
 }
 
 @mixin sprite-ico($width, $height, $background-position) {

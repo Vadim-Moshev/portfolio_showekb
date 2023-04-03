@@ -135,7 +135,6 @@
           @include font(20px, "cuprum_regular", #000, 1.2);
           @include like-button(3px solid $violet, 15px 0, transparent);
           width: $big-tile-width;
-          text-align: center;
           border-radius: $rounded;
           transition: background-color 0.3s linear, color 0.3s linear;
 
