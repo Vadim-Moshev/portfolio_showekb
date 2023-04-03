@@ -1,0 +1,85 @@
+.we-help {
+  padding-top: 13px;
+  @include side-paddings;
+  background-image: url(../images/we-help-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .we-help__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+    padding: 20px 83px 10px;
+    background-color: $transparent-violet;
+    backdrop-filter: $backdrop-filter-blur;
+
+    .we-help__header {
+      @include font(32px, "cuprum_regular", #fff, 1.2);
+      text-align: center;
+    }
+
+    .we-help__form-row,
+    .we-help__form-row--with-textarea {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+
+      &--with-textarea {
+        flex-direction: column;
+        align-items: initial;
+        gap: 14px;
+      }
+
+      .we-help__field-label {
+        width: 163px;
+        @include font(18px, "Arial", #fff, 1.2);
+      }
+
+      .we-help__text-field,
+      .we-help__textarea {
+        @include font(16px, "Arial", #fff, 1.2);
+        $side-padding: 15px;
+        padding: 9px $side-padding;
+        width: calc(263px - 2 * $side-padding);
+        border-radius: $rounded;
+        border: 1px solid transparent;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.2);
+
+        &::placeholder {
+          color: rgb(233, 207, 255);
+        }
+
+        &:focus {
+          border-color: #fff;
+        }
+      }
+
+      .we-help__textarea {
+        width: auto;
+        resize: none;
+        min-height: 80px;
+      }
+    }
+
+    .we-help__submit {
+      @include like-button(3px solid #fff, 10px 71px, transparent);
+      @include font(20px, "cuprum_regular", #fff, 1.2);
+      align-self: center;
+      transition: background-color 0.3s linear, color 0.3s linear,
+        transform 0.2s linear;
+      transform: scale(1);
+      border-radius: $rounded;
+
+      &:hover {
+        background-color: #fff;
+        color: $violet;
+      }
+
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
+}
