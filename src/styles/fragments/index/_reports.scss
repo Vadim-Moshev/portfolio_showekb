@@ -16,6 +16,20 @@
     @include absolute-cover;
   }
 
+  .reports__photo-counter {
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+
+    &:before {
+      content: "";
+      position: relative;
+      @include sprite-ico(26px, 22px, -209px -1px);
+    }
+  }
+
   .reports__big {
     position: relative;
     width: $big-tile-width;
@@ -44,20 +58,6 @@
         transition: border-bottom-color 0.3s linear;
       }
 
-      .reports__photo-counter {
-        position: relative;
-        font-size: 14px;
-        display: flex;
-        gap: 11px;
-        align-items: center;
-
-        &:before {
-          content: "";
-          position: relative;
-          @include sprite-ico(26px, 22px, -209px -1px);
-        }
-      }
-
       .reports__link {
         @include absolute-cover;
       }
@@ -74,25 +74,45 @@
 
   .reports__small-links-container {
     display: flex;
-    gap: $tile-gap;
+    gap: 14px;
     flex-wrap: wrap;
     width: $big-tile-width;
 
     .reports__small {
-      @include font(14px, "calibri_light", #fff, 1.2);
-      display: flex;
-      gap: 8px;
-      flex-direction: column;
-      justify-content: flex-end;
       position: relative;
       width: $small-tile-width;
       height: $small-tile-height;
-      background-color: $transparent-black;
-      z-index: 2;
 
       .reports__cover {
-        @include absolute-cover;
-        z-index: 1;
+        width: inherit;
+        height: inherit;
+      }
+
+      .reports__link {
+        @include font(14px, "calibri_light", #fff, 1.2);
+        padding: 0 12px 7px 16px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: $transparent-black;
+        transition: background-color 0.3s linear;
+
+        .reports__photo-header {
+          font-size: 20px;
+          height: 50px;
+          border-bottom: 1px solid $violet;
+          margin-bottom: 7px;
+          transition: border-bottom-color 0.3s linear;
+        }
+
+        &:hover {
+          background-color: $transparent-violet;
+        }
+
+        &:hover .reports__photo-header {
+          border-bottom-color: #fff;
+        }
       }
     }
   }
