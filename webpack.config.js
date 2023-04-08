@@ -1,54 +1,84 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const devServer = (isDev) => !isDev ? {} : {
-    devServer: {
-        open: true,
-        hot: true,
-        port: 8080,
-    }
-};
+const devServer = (isDev) =>
+  !isDev
+    ? {}
+    : {
+        devServer: {
+          open: true,
+          hot: true,
+          port: 8080,
+        },
+      };
 
-module.exports = ({develop}) => ({
-  mode: develop ? 'development' : 'production',
-  entry: './src/index.js',
+const pages = ["index", "h"];
+
+module.exports = ({ develop }) => ({
+  mode: develop ? "development" : "production",
+  entry: pages.reduce((config, page) => {
+    config[page] = `./src/${page}.js`;
+    return config;
+  }, {}),
+
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    clean: true,
+    path: path.resolve(__dirname, "dist"),
+    filename: "[name].js",
   },
   plugins: [
-      new HtmlWebpackPlugin({
-          template: './src/index.html'
-      }),
-      new MiniCssExtractPlugin({
-          filename: './styles/main.css'
-      })
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: `./src/index.html`,
+      filename: `index.html`,
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: `./src/h.html`,
+      filename: `h.html`,
+    }),
+    new MiniCssExtractPlugin({
+      filename: "./styles/main.css",
+    }),
   ],
+  // plugins: [
+  //   ...pages.map((page) => {
+  //     new HtmlWebpackPlugin({
+  //       inject: true,
+  //       template: `./src/${page}.html`,
+  //       filename: `${page}.html`,
+  //       chunk: [page],
+  //     });
+  //   }),
+  //   new MiniCssExtractPlugin({
+  //     filename: "./styles/main.css",
+  //   }),
+  // ],
+
   module: {
-      rules: [
-          {
-              test: /\.(?:ico|png|jpg|jpeg|svg)$/i,
-              type: 'asset/inline'
-          },
-          {
-              test: /\.html$/i,
-              loader: 'html-loader'
-          },
-          {
-              test: /\.css$/i,
-              use: [
-                MiniCssExtractPlugin.loader, 'css-loader'
-              ]
-          },
-          {
-              test: /\.scss$/i,
-              use: [
-                MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
-              ]
-          }
-      ]
+    rules: [
+      {
+        test: /\.(?:ico|png|jpg|jpeg|svg)$/i,
+        type: "asset/inline",
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+      {
+        test: /\.scss$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+      },
+    ],
   },
   ...devServer(develop),
 });
+
+/*
+
+
+*/
