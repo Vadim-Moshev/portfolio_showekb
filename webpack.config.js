@@ -14,6 +14,19 @@ const devServer = (isDev) =>
       };
 
 const pages = ["index", "h"];
+const plugins = pages
+  .map((page) => {
+    return new HtmlWebpackPlugin({
+      inject: true,
+      template: `./src/${page}.html`,
+      filename: `${page}.html`,
+    });
+  })
+  .concat(
+    new MiniCssExtractPlugin({
+      filename: "./styles/main.css",
+    })
+  );
 
 module.exports = ({ develop }) => ({
   mode: develop ? "development" : "production",
@@ -26,21 +39,7 @@ module.exports = ({ develop }) => ({
     path: path.resolve(__dirname, "dist"),
     filename: "[name].js",
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      inject: true,
-      template: `./src/index.html`,
-      filename: `index.html`,
-    }),
-    new HtmlWebpackPlugin({
-      inject: true,
-      template: `./src/h.html`,
-      filename: `h.html`,
-    }),
-    new MiniCssExtractPlugin({
-      filename: "./styles/main.css",
-    }),
-  ],
+  plugins,
   module: {
     rules: [
       {
