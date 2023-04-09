@@ -20,6 +20,7 @@ const plugins = pages
       inject: true,
       template: `./src/${page}.html`,
       filename: `${page}.html`,
+      chunks: [page],
     });
   })
   .concat(
@@ -34,6 +35,11 @@ module.exports = ({ develop }) => ({
     config[page] = `./src/${page}.js`;
     return config;
   }, {}),
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+  },
 
   output: {
     path: path.resolve(__dirname, "dist"),
