@@ -1,3 +1,36 @@
 .aboutwork {
-  color: red;
+  padding: 15px 0;
+  @include side-paddings;
+  @include font(16px, "arial", #000, 1.2);
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border-top: 1px solid $violet;
+  border-bottom: 1px solid $violet;
+
+  a {
+    color: $violet;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+      position: relative;
+      padding-left: 30px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 6px;
+        padding: 4px;
+        display: block;
+        border-radius: $rounded;
+        background-color: $violet;
+      }
+    }
+  }
 }
