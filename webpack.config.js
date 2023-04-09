@@ -13,7 +13,7 @@ const devServer = (isDev) =>
         },
       };
 
-const pages = ["index", "h"];
+const pages = ["index", "aboutwork"];
 const plugins = pages
   .map((page) => {
     return new HtmlWebpackPlugin({
