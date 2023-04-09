@@ -41,20 +41,6 @@ module.exports = ({ develop }) => ({
       filename: "./styles/main.css",
     }),
   ],
-  // plugins: [
-  //   ...pages.map((page) => {
-  //     new HtmlWebpackPlugin({
-  //       inject: true,
-  //       template: `./src/${page}.html`,
-  //       filename: `${page}.html`,
-  //       chunk: [page],
-  //     });
-  //   }),
-  //   new MiniCssExtractPlugin({
-  //     filename: "./styles/main.css",
-  //   }),
-  // ],
-
   module: {
     rules: [
       {
@@ -77,8 +63,3 @@ module.exports = ({ develop }) => ({
   },
   ...devServer(develop),
 });
-
-/*
-
-
-*/
